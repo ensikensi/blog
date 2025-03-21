@@ -1,0 +1,149 @@
+*{
+    font-family: courier;
+    text-align: center;
+   /* outline: darkcyan 1px solid; */
+}
+body{
+    background-color: #a82020;
+}
+.container{
+    border-left: solid black 4px;
+    border-right: solid black 4px;
+    background-color: white;
+    padding: 0% 2%;
+    width: 70%;
+    margin: auto;
+    height: 100%;
+}
+header{
+    padding: 0.5% 0;
+    margin: 0.5% 0 0% 0;
+}
+header hr{
+    width: 80%;
+    border: black 1px solid;
+}
+nav a{
+    padding: 0.5% 1%;
+    color: black;
+    font-weight: bold;
+}
+nav a:hover{
+    color: red;
+    transition: 0.2s all ease-out;
+}
+nav a:visited{
+    color: black;
+}
+nav{
+    margin: 1% 0;
+}
+/* fieldset{
+    border: solid 4px black;
+    margin: 0em 10em;
+    border-radius: 15px;
+}
+.blog{
+    border: solid 4px black;
+    background-color: #CA0A0A;
+}
+li{
+    text-align: left;
+    margin: 0 45%;
+}
+legend p{
+    border: solid 3px black;
+    padding: 1em 2em;
+    background-color: white;
+}
+fieldset #blogbody{
+    border: 3px solid black;
+    text-align: left;
+    padding: 1em 2.5em;
+    background-color: white;
+} */
+.flexbox{
+    display: grid;
+    grid-template-columns: 50% 50%;
+} 
+#updates{
+    width: 90%;
+    border: 2px solid black;
+    height: 70%;
+    overflow-y: scroll;
+}
+#updates summary{
+    text-align: left;
+    margin: 0 0 0 4%;
+    padding: 0.5%;
+    border-bottom: 1px dashed black;
+    width: 90%;
+}
+#updates p{
+    text-align: left;
+    margin: 0 0 0 4%;
+    padding: 0.5%;
+    width: 90%;
+}
+.words{
+    width: 94%;
+    margin: 0%;
+}
+.words button{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px 9px;
+    font-weight: bold;
+
+}
+#word{
+    width: 90%;
+    border: 1px solid black;
+    margin: 2% auto;
+    padding: 2% 1% 0 1%;
+}
+#word hr{
+    width: 80%;
+}
+.status{
+    text-align: left;
+    height: 100%;
+    padding: 1% 0;
+}
+.status section{
+    padding: 1% 2%;
+    margin: 0 1%;
+    outline: black 2px dashed;
+}
+#status{
+    margin: 2% 1%;
+    border-radius: 15px
+}
+@media only screen and (max-width: 390px){
+    .flexbox{
+        display: block;
+    }
+    #updates{
+        width: 90%;
+        height: 50%;
+    }
+    .container{
+        border-left: solid black 4px;
+        border-right: solid black 4px;
+        background-color: white;
+        padding: 0% 2%;
+        width: 95%;
+        margin: auto;
+        height: auto;
+    }
+    .status{
+        text-align: left;
+        height: auto;
+        padding: 1% 0;
+        margin: 2% 0;
+    }
+    .words{
+        width: 94%;
+        margin: auto;
+    }
+}

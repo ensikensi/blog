@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>kensi's blog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <script src="https://kit.fontawesome.com/d09aa7be9f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>welcome to my "live"blog</h1>
+                <hr>
+                    <nav>
+                        <a style="border-right: 1px solid #ca0a0a; padding: 0 5px;" href="#">homepage</a>
+                        <a style="border-left: 1px solid #ca0a0a; border-right: 1px solid #ca0a0a; padding: 0 5px;" href="about.html">about me</a> 
+                        <a style="border-left: 1px solid #ca0a0a; border-right: 1px solid #ca0a0a; padding: 0 5px;" href="general.html">general blog</a> 
+                        <a style="border-left: 1px solid #ca0a0a; border-right: 1px solid #ca0a0a; padding: 0 5px;" href="netplus.html">net+ blog</a> 
+                        <a style="border-left: 1px solid #ca0a0a; padding: 0 5px;" href="compsci.html">compsci blog</a>
+                    </nav>
+            </header>
+            <div class="mainpage">
+                <h3>this site is going to be used for my computer science education journey!</h3>
+                <div class="flexbox">
+                    <div>
+                    <fieldset id="updates">
+                        <legend>updates <i class="fa-solid fa-fish"></i></legend>
+                        <details>
+                            <summary>03.21.2025</summary>
+                            <p>added status section to homepage</p>
+                            <p>word list</p>
+                            <p>about me page was made</p>
+                            <p>general blog was made</p>
+                        </details>
+                        <details>
+                            <summary>03.20.2025</summary>
+                            <p>homepage was made</p>
+                        </details>
+                    </fieldset>
+                    <br>
+                    <div class="words">
+                        <button id="btn" onclick="generate()">new word</button>
+                        <p id="word"></p>
+                    </div>
+                    </div>
+                    <div class="status">
+                        <section id="status">
+                            <h3><i class="fa-solid fa-book"></i> Currently Reading: <i class="fa-solid fa-book"></i></h3>
+                            <p>Girl in Pieces - Kathleen Glasgow</p>
+                        </section>
+                        <section id="status">
+                            <h3><i class="fa-solid fa-tv"></i> Currently Watching: <i class="fa-solid fa-tv"></i></h3>
+                            <p>Invincible - S2</p>
+                        </section>
+                        <section id="status">
+                            <h3><i class="fa-solid fa-headphones"></i> Currently Listening: <i class="fa-solid fa-headphones"></i></h3>
+                            <p><iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/75nZGvjStgCUavXcsYsXf7?utm_source=generator" width="90%" height="176" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></p>
+                        </section>
+                        <section id="status">
+                            <h3><i class="fa-solid fa-laptop-file"></i> Currently Learning: <i class="fa-solid fa-laptop-file"></i></h3>
+                            <p>NET+ and Javascript</p>
+                        </section>
+                    </div>
+                </div>
+                   
+                </div>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>
